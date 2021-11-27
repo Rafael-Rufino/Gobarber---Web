@@ -1,0 +1,82 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "extends": [
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended",
+    "prettier",
+    "airbnb"
+  ],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "plugins": [
+    "react",
+    "react-hooks",
+    "@typescript-eslint",
+    "prettier"
+  ],
+  "rules": {
+    "prettier/prettier": "error",
+    "react-hooks/rules-of-hooks": "error",
+    "no-use-before-define": "off",
+    "react/jsx-no-undef": "off",
+    "import/order": "off",
+    "import/no-unresolved": "off",
+    "no-undef": "off",
+    "jsx-a11y/anchor-is-valid": "off",
+    "import/newline-after-import": "off",
+    "react/function-component-definition":"off",
+    "arrow-body-style": "off",
+    "no-unused-vars": "off",
+    "react-hooks/exhaustive-deps": "warn",
+    "no-redeclare": "off",
+    "arrow-parens": "off",
+    "react/react-in-jsx-scope": "off",
+    "@typescript-eslint/explicit-mooffdule-boundary-types": "off",
+    "react/jsx-filename-extension": [1, {"extensions": [".tsx", ".ts"] }],
+    "import/prefer-default-export": "off",
+    "react/jsx-no-bind": "off",
+    "object-curly-newline": "off",
+    "implicit-arrow-linebreak": "off",
+    "operator-linebreak": "off",
+    "react/jsx-one-expression-per-line": "off",
+    "indent": "off",
+    "no-console": "off",
+    "@typescript-eslint/no-unused-vars": "off",
+    "consistent-return": "off",
+    "camelcase":"off",
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "@typescript-eslint/explicit-function-return-type": "off",
+
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "ts": "never",
+        "tsx": "never"
+      }
+   ]
+  },
+  "settings": {
+    "import/resolver": {
+      "typescript": {}
+      },
+
+    "react": {
+      "version": "detect"
+  }
+  }
+}
