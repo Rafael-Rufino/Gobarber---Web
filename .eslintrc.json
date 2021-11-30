@@ -63,6 +63,10 @@
     "react/jsx-props-no-spreading": "off",
     "react/button-has-type":"off",
     "@typescript-eslint/ban-types": "off",
+    "max-len": "off",
+    "no-empty-function": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/no-empty-function": "off",
 
     "import/extensions": [
       "error",
