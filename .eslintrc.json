@@ -55,7 +55,6 @@
     "react/jsx-one-expression-per-line": "off",
     "indent": "off",
     "no-console": "off",
-    "@typescript-eslint/no-unused-vars": "off",
     "consistent-return": "off",
     "camelcase":"off",
     "@typescript-eslint/explicit-module-boundary-types": "off",
@@ -68,7 +67,10 @@
     "@typescript-eslint/no-explicit-any": "off",
     "@typescript-eslint/no-empty-function": "off",
     "react/require-default-props":"off",
-
+    "react/jsx-no-constructed-context-values": "off",
+    "no-unused-expressions": "off",
+    "@typescript-eslint/no-unused-expressions": "off",
+    "@typescript-eslint/no-unused-vars": "off",
     "import/extensions": [
       "error",
       "ignorePackages",
